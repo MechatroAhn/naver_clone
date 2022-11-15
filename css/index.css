@@ -71,13 +71,12 @@ header {
   width: 240px;
   text-align: center;
 }
-.title img{
-  width:100px;
+.title img {
+  width: 100px;
   height: 100px;
   position: absolute;
   left: -50px;
-  top:5px;
-
+  top: 5px;
 }
 
 .searchBar {
@@ -971,7 +970,7 @@ main {
 }
 #shopping_list_detail div span {
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 3px;
 }
 #shopping_list_detail div span:nth-child(2) {
@@ -1225,7 +1224,7 @@ article {
 #article_6,
 #article_7,
 #article_8,
-#article_10{
+#article_10 {
   width: 100%;
   position: absolute;
   visibility: hidden;
@@ -1294,15 +1293,15 @@ article {
   line-height: 20px;
   color: white;
 }
-.article_main_1_right_div div{
+.article_main_1_right_div div {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   margin-left: 10px;
 }
 
-.article_nav_1{
-  width:100%;
+.article_nav_1 {
+  width: 100%;
   height: 50px;
   background-color: #2c2d30;
   margin-top: 15px;
@@ -1317,9 +1316,9 @@ article {
 #article_7,
 #article_8,
 #article_9,
-#article_10{
+#article_10 {
   position: absolute;
-  top:80px;
+  top: 80px;
   left: 280px;
   font-size: 50px;
 }
