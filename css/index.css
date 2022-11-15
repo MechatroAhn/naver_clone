@@ -60,6 +60,7 @@ header {
   height: 120px;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .title a {
@@ -69,6 +70,14 @@ header {
   font-size: 50px;
   width: 240px;
   text-align: center;
+}
+.title img{
+  width:100px;
+  height: 100px;
+  position: absolute;
+  left: -50px;
+  top:5px;
+
 }
 
 .searchBar {
@@ -85,8 +94,14 @@ header {
   height: 53px;
   border: none;
   background-color: rgb(41, 42, 46);
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: bold;
 }
-
+.searchBar input:focus {
+  outline: none;
+}
 .searchBar div:nth-child(3) {
   color: rgb(4, 207, 92);
   margin-left: 10px;
@@ -140,6 +155,10 @@ nav img {
   width: 22px;
   height: 22px;
   margin-right: 5px;
+}
+.nav_left div:nth-child(1) i {
+  margin-right: 5px;
+  color: rgb(34, 182, 97);
 }
 .nav_left a {
   cursor: pointer;
@@ -238,6 +257,15 @@ nav img {
 .nav_more_setting div:nth-child(2) {
   width: 100px;
   margin-left: 10px;
+}
+.nav_more_content a {
+  font-size: 12px;
+  color: #c0c1c3;
+}
+
+.nav_more_content div a {
+  color: rgb(121, 119, 119);
+  font-size: 14px;
 }
 
 .nav_right {
@@ -661,6 +689,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 7px;
 }
 
 .news_stand_left {
@@ -803,7 +832,6 @@ main {
   position: relative;
   width: 100%;
   height: 1769px;
-  background-color: chartreuse;
 }
 .shopping_list_1 {
   position: absolute;
@@ -1144,6 +1172,13 @@ article {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.article_content div:nth-child(1) {
+  background-color: rgb(230, 94, 160);
 }
 
 #article_nav_LB {
@@ -1159,7 +1194,10 @@ article {
   position: absolute;
   left: -16px;
   visibility: hidden;
+  cursor: pointer;
+  z-index: 1;
 }
+
 #article_nav_RB {
   width: 35px;
   height: 35px;
@@ -1172,17 +1210,116 @@ article {
   font-weight: bold;
   position: absolute;
   right: -16px;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .article_main {
   width: 100%;
   position: relative;
 }
-.article_main div {
+#article_2,
+#article_3,
+#article_4,
+#article_5,
+#article_6,
+#article_7,
+#article_8,
+#article_10{
   width: 100%;
   position: absolute;
   visibility: hidden;
 }
-.article_main div:nth-child(1) {
+
+#article_1 {
   visibility: visible;
+}
+
+#article_1 {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.article_main_1 {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article_main_1_left {
+  display: flex;
+  flex-direction: column;
+}
+.article_main_1_left img {
+  width: 400px;
+}
+.article_main_1_left h1 {
+  font-weight: bold;
+  color: rgb(230, 94, 160);
+  font-size: 15px;
+  margin: 10px 0;
+}
+.article_main_1_left h2 {
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: white;
+}
+
+.article_main_1_right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.article_main_1_right img {
+  width: 100px;
+}
+
+.article_main_1_right_div {
+  display: flex;
+  justify-content: space-between;
+}
+.article_main_1_right h1 {
+  font-weight: bold;
+  color: rgb(230, 94, 160);
+  font-size: 14px;
+  margin: 10px 0;
+}
+.article_main_1_right h2 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+.article_main_1_right_div div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
+
+.article_nav_1{
+  width:100%;
+  height: 50px;
+  background-color: #2c2d30;
+  margin-top: 15px;
+  border: 1px solid rgb(64, 64, 64);
+}
+
+#article_2,
+#article_3,
+#article_4,
+#article_5,
+#article_6,
+#article_7,
+#article_8,
+#article_9,
+#article_10{
+  position: absolute;
+  top:80px;
+  left: 280px;
+  font-size: 50px;
 }
