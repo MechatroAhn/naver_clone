@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="icon"
+      href="https://imweb.me/img/naver_pay_img_04.png?44251234"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>NAVER</title>
+  </head>
+  <body>
+    <div class="header_container">
+      <header>
+        <div class="top">
+          <div>
+            <a href="#none">네이버를 시작페이지로</a>
+            <div>＞</div>
+          </div>
+          <a href="#none">쥬니어네이버</a>
+          <a href="#none">해피빈</a>
+        </div>
+        <div class="title">
+          <a href="#none">NAVER</a>
+          <div class="searchBar">
+            <input />
+            <div>ㅁ</div>
+            <div>▼</div>
+            <div>@</div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div class="nav_container">
+      <nav>
+        <div class="nav_left">
+          <div>
+            <img src="./images/mail.png" />
+            <a>메일</a>
+          </div>
+          <a>카페</a>
+          <a>블로그</a>
+          <a>지식iN</a>
+          <a>쇼핑</a>
+          <a>쇼핑LIVE</a>
+          <a>Pay</a>
+          <a>▷TV</a>
+          <a>사전</a>
+          <a>뉴스</a>
+          <a>증권</a>
+          <a>부동산</a>
+          <a>지도</a>
+          <a>VIBE</a>
+          <a>도서</a>
+          <a>웹툰</a>
+          <a onclick="more();">더보기▽</a>
+        </div>
+        <div id="more" class="nav_more_container">
+          <div class="nav_more">
+            <div class="nav_more_setting">
+              <div>서비스 전체보기</div>
+              <div>ㅁ 메뉴설정</div>
+            </div>
+
+            <div class="nav_more_content">
+              <h1>ㄱ~ㅁ</h1>
+              <a href="#none">구독</a>
+              <a href="#none">날씨</a>
+              <a href="#none">네이버 MY CAR</a>
+              <a href="#none">네이버 게임</a>
+              <a href="#none">네이버 예약</a>
+              <a href="#none">네이버 프리미엄콘텐츠</a>
+            </div>
+            <div class="nav_more_content">
+              <h1>ㅂ~ㅅ</h1>
+              <a href="#none">밴드</a>
+              <a href="#none">부동산</a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+            </div>
+            <div class="nav_more_content">
+              <h1>ㅇ</h1>
+              <a href="#none">익스퍼트</a>
+              <a href="#none">영화</a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+            </div>
+            <div class="nav_more_content">
+              <h1>ㅈ~ㅊ</h1>
+              <a href="#none">주소록</a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+            </div>
+            <div class="nav_more_content">
+              <h1>ㅋ~ㅎ</h1>
+              <a href="#none">캘린더</a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+            </div>
+            <div class="nav_more_content">
+              <h1>A-Z</h1>
+              <a href="#none">Keep</a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+            </div>
+            <div class="nav_more_content">
+              <h1>사전</h1>
+              <a href="#none">사전</a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+            </div>
+          </div>
+        </div>
+        <div class="nav_right">
+          <div id="weather">
+            <img src="./images/sun.png" />
+            <span>20.4°</span>
+            <span>맑음</span>
+            <span>7.0°</span>
+            <span>/</span>
+            <span>20.0°</span>
+            <span>ㅇㅇ동</span>
+          </div>
+          <div id="dust">
+            <span>미세</span>
+            <img src="./images/smile.png" />
+            <span>보통</span>
+            <span>|</span>
+            <span>초미세</span>
+            <img src="./images/smile.png" />
+            <span>보통</span>
+            <span>ㅇㅇ동</span>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <main>
+      <div class="mainLeft">
+        <div class="banner">
+          <img
+            src="https://ssl.pstatic.net/melona/libs/1417/1417278/52193b3c47bc58c1e2b4_20221102182530337.jpg"
+          />
+        </div>
+        <div class="news_banner">
+          <div>
+            <span>연합뉴스</span>
+            <div>＞</div>
+          </div>
+          <span id="news_1">포트폴리오 작업중 배고파... 초밥먹으러 나간다</span>
+          <span id="news_2">안중환 초밥 먹고도 후식으로 쫄병스낵...</span>
+          <span id="news_3">안중환 "코딩 너무 재밌다" 거짓말소동</span>
+          <span id="news_4">"목이 마르면 물을 마셔라" 안중환 막말파문</span>
+          <div>
+            <a href="#none">Qat_ar2022</a>
+            <h1>·</h1>
+            <a href="#none">뉴스홈</a>
+            <h1>·</h1>
+            <h2>연예</h2>
+            <h2>스포츠</h2>
+            <h2>경제</h2>
+          </div>
+        </div>
+        <div class="news_stand">
+          <div class="news_stand_top">
+            <div class="news_stand_left">
+              <h1>뉴스스탠드</h1>
+              <h1>＞</h1>
+              <h1>구독한 언론사</h1>
+              <h1>·</h1>
+              <h1>전체언론사</h1>
+            </div>
+            <div class="news_stand_right">
+              <a href="#none">1</a>
+              <a href="#none">2</a>
+              <a href="#none">3</a>
+            </div>
+          </div>
+          <div class="news_stand_bottom">
+            <div id="news_stand_LB">◁</div>
+            <div class="news_stand_list" id="news_list_1">
+              <div>2DNET Korea</div>
+              <div>KBS</div>
+              <div>아시아경제</div>
+              <div>BLOTER</div>
+              <div>mydaily</div>
+              <div>데일리안</div>
+              <div>MBN</div>
+              <div>MT머니투데이</div>
+              <div>경향신문</div>
+              <div>미디어오늘</div>
+              <div>한겨례</div>
+              <div>NewDaily</div>
+              <div>OhmyNes</div>
+              <div>한국경제TV</div>
+              <div>동아일보</div>
+              <div>강원일보</div>
+              <div>MS TODay</div>
+              <div>강원도민일보</div>
+              <div>SmartPC사랑</div>
+              <div>독서신문</div>
+              <div>채널예스</div>
+              <div>TV CHOSUN</div>
+              <div>YONHAP NEWS</div>
+              <div>중앙SUNDAY</div>
+            </div>
+            <div class="news_stand_list hidden" id="news_list_2">
+              <div>한국경제TV</div>
+              <div>해럴드경제</div>
+              <div>디지털타임스</div>
+              <div>아이뉴스24</div>
+              <div>시사IN</div>
+              <div>매일경제</div>
+              <div>The Korea herald</div>
+              <div>YTN</div>
+              <div>연합뉴스TV</div>
+              <div>국민일보</div>
+              <div>전자신문</div>
+              <div>경향신문</div>
+              <div>NewDaliy</div>
+              <div>머니투데이</div>
+              <div>데일리안</div>
+              <div>Dyline Network</div>
+              <div>한국농어촌방송</div>
+              <div>SPORTS</div>
+              <div>약사공론</div>
+              <div>SBS연예뉴스</div>
+              <div>dataNews</div>
+              <div>신아일보</div>
+              <div>데일리한국</div>
+              <div>ECONOMYChosun</div>
+            </div>
+            <div class="news_stand_list hidden" id="news_list_3">
+              <div>스포츠동아</div>
+              <div>조선일보</div>
+              <div>KBS</div>
+              <div>한국일보</div>
+              <div>BLOTER</div>
+              <div>MBN</div>
+              <div>일간스포츠</div>
+              <div>동아일보</div>
+              <div>서울신문</div>
+              <div>스포츠조선</div>
+              <div>뉴스타파</div>
+              <div>미디어오늘</div>
+              <div>OSEN</div>
+              <div>서울경제</div>
+              <div>이데일리</div>
+              <div>뉴스클레임</div>
+              <div>ELLE</div>
+              <div>arirang</div>
+              <div>중앙SUNDAY</div>
+              <div>에너지경제</div>
+              <div>M이코노미뉴스</div>
+              <div>Pd JOURNAL</div>
+              <div>뉴스토마토</div>
+              <div>BUSINESS</div>
+            </div>
+            <div id="news_stand_RB">▷</div>
+          </div>
+        </div>
+        <article>
+          <div class="article_top">
+            <div>
+              <h1>오늘 읽을만한 글</h1>
+              <h2>주제별로 분류된 다양한 글 모음</h2>
+            </div>
+            <div>
+              <span>681</span>
+              <span>개의 글</span>
+              <span>|</span>
+              <span>ㅁ</span>
+              <span>관심주제 설정</span>
+            </div>
+          </div>
+          <div class="article_nav">
+            <div id="article_nav_LB">﹤</div>
+            <div class="article_content_container">
+              <div class="article_content">
+                <div>엔터</div>
+                <div>스포츠</div>
+                <div>자동차</div>
+                <div>웹툰</div>
+                <div>경제</div>
+                <div>추천﹒구독</div>
+                <div>레시피</div>
+                <div>리빙</div>
+                <div>책방</div>
+                <div>패션뷰티</div>
+              </div>
+            </div>
+            <div id="article_nav_RB">＞</div>
+          </div>
+          <div class="article_main">
+            <div id="article_1">1</div>
+            <div id="article_2">2</div>
+            <div id="article_3">3</div>
+            <div id="article_4">4</div>
+            <div id="article_5">5</div>
+            <div id="article_6">6</div>
+            <div id="article_7">7</div>
+            <div id="article_8">8</div>
+            <div id="article_9">9</div>
+            <div id="article_10">10</div>
+          </div>
+        </article>
+      </div>
+
+      <div class="mainRight">
+        <div class="login">
+          <span>네이버를 더 안전하고 편리하게 이용하세요</span>
+          <a href="#none" class="login_btn">NAVER 로그인</a>
+          <div class="login_find">
+            <div>
+              <img />
+              <a href="#none">아이디</a>
+              <span>·</span>
+              <a href="#none">비밀번호찾기</a>
+            </div>
+            <div>
+              <img />
+              <a href="#none">회원가입</a>
+            </div>
+          </div>
+        </div>
+        <div class="mini_info">
+          <div id="info_1">
+            <div>LIVE</div>
+            <span>저녁방송 메인뉴스 보기</span>
+          </div>
+          <div id="info_2">
+            <div>이슈</div>
+            <span>코로나바이러스감염증-19 현황</span>
+          </div>
+          <div id="info_3">
+            <div>증시</div>
+            <span>|</span>
+            <span>러시아</span>
+            <span>1,158.73</span>
+            <span>▲8.37</span>
+            <span>+0.73%</span>
+          </div>
+          <div id="info_4">
+            <div>환율</div>
+            <span>|</span>
+            <img
+              src="data:image/png;base64,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"
+            />
+            <span>USD</span>
+            <span>1,325.00</span>
+            <span>▼40.00</span>
+            <span>-2.93%</span>
+          </div>
+          <div class="btn_container">
+            <div id="LB">◁</div>
+            <div id="RB">▷</div>
+          </div>
+        </div>
+        <div class="ad"></div>
+        <div class="shopping">
+          <div class="shopping_top">
+            <div class="shopping_top_left">
+              <a href="#none">트렌드쇼핑</a>
+              <h1>></h1>
+            </div>
+            <div class="shopping_top_right">
+              <a href="#none">상품</a>
+              <a href="#none">쇼핑몰</a>
+              <a href="#none">MEN</a>
+            </div>
+          </div>
+          <div class="shopping_bottom">
+            <div class="shopping_list_1" id="shopping_1">
+              <div class="shopping_list_1_top">
+                <div>
+                  <a href="#none">쿠팡</a>
+                  <span>·</span>
+                  <a href="#none">G마켓</a>
+                  <span>·</span>
+                  <a href="#none">옥션</a>
+                  <span>·</span>
+                  <a href="#none">11번가</a>
+                  <span>·</span>
+                  <a href="#none">SSG닷컴</a>
+                  <span>·</span>
+                  <a href="#none">티몬</a>
+                </div>
+                <div>
+                  <a href="#none">올리브영</a>
+                  <span>·</span>
+                  <a href="#none">위메프</a>
+                  <span>·</span>
+                  <a href="#none">GS샵</a>
+                  <span>·</span>
+                  <a href="#none">CJ온스타일</a>
+                  <span>·</span>
+                  <a href="#none">패션플러스</a>
+                </div>
+              </div>
+              <div class="shopping_list_1_middle_1">
+                <div class="shopping_nav">
+                  <span id="current_page">1</span>
+                  <span>/</span>
+                  <span>3</span>
+                  <div id="shopping_detail_LB">◁</div>
+                  <div id="shopping_detail_RB">▷</div>
+                </div>
+                <div class="shopping_list_1_middle_1_container">
+                  <div id="shopping_list_detail" class="shopping_list_detail_1">
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20220913_15/4ad49549-97cb-4d3d-abf7-e627436e93b2.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>후기 좋았던 이유</span>
+                      <span>임상결과 확인해!</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221109_24/89d00591-f8ec-4ba1-9383-c2756423eff9.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>신상10%세일찬스</span>
+                      <span>착한가격득템!</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221103_22/42b0fa59-c5c3-44a4-9e01-e2f6e132d5ab.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>슬림UP 볼륨UP</span>
+                      <span>반응폭발 원피스</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221107_3/00d2c4eb-2b0f-4da3-9f1e-c96a003976db.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>마스크 끝판왕</span>
+                      <span>최대 52% 할인</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221020_25/22314c9c-bad0-4f8d-980c-0b40541877da.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>UP TO~80% SALE</span>
+                      <span>데일리~반코트</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20220624_4/1f60f6ec-5fa0-4017-825d-1f4de38b1604.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>선착순 1+1+1+1+1</span>
+                      <span>단, 7일간! 100원</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20211015_5/aac73591-e90a-40da-96bc-8695dd2ee209.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>블랙프라이데이</span>
+                      <span>1+1 할인 운동화!</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221109_22/3e3eefa3-1f2e-469a-a23d-c09c689e1537.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>독보적인 퀄리티</span>
+                      <span>극찬하는이유있죠</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221104_0/7bfe1e35-a94c-4d05-8997-c9ed51d6641b.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>올시즌인기BEST~!</span>
+                      <span>필링 모헤어 니트</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221108_6/b716de3d-26fa-4966-a3f5-237dc54190a0.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>스컬피그 블프DAY</span>
+                      <span>UPTO83% 특가찬스</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221107_20/b8831707-e353-4eda-aad0-48be33ee0fa1.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>FW BEST 신상~</span>
+                      <span>브랜드 그이상~</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221111_14/82e8c098-9ed1-4e07-ab46-f318b38e8b41.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>F/W BEST</span>
+                      <span>요즘핫한 BEST</span>
+                    </div>
+                  </div>
+                  <div id="shopping_list_detail" class="shopping_list_detail_2">
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221102_19/2b42cc12-660e-4f9b-be17-fe8044f49d24.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>미소페 푹신쿠션</span>
+                      <span>후기 너무좋아~</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20220616_0/6ca31fd1-de21-4d1c-847d-b1b1b27fcd18.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>피지잡는모공크림</span>
+                      <span>백화점인기BEST!</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221110_28/2644dda2-004a-482f-aea0-1374851ab939.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>추워진날씨 준비</span>
+                      <span>인기상승 파자마</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221108_28/60ecf602-dd61-40b9-a643-1d2e4e31cb4b.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>겨울까지 명품핏!</span>
+                      <span>단독제작~최대80%</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221110_5/62395fe3-ec07-44f5-ac3c-193109031d78.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>최대 50% SALE</span>
+                      <span>겨울에도화사하게</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20220922_14/ee6277e3-d9c6-4bd7-b996-d0120a914d52.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>블프데이 100원</span>
+                      <span>3개구매시1개특가</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221031_25/4844a84c-20cf-4b33-85ce-9c988a39ad4a.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>인기 아우터25% ↓</span>
+                      <span>스피드 당일발송</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221108_3/4d706415-a7b2-4351-b42b-84ba6f4c990f.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>100% 유기농 순면</span>
+                      <span>생리대 득템찬스!</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221108_29/e4a2377f-c56b-412b-bc3d-ffb09509c11f.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>세련미가 돋보여</span>
+                      <span>활용도 정말좋아~</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221109_24/89d00591-f8ec-4ba1-9383-c2756423eff9.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>신상10%세일찬스</span>
+                      <span>착한가격특템!</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20220607_19/ae78c162-6e5b-48d0-85f5-c40ae494e45f.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>TV속 그 김치</span>
+                      <span>선화동 실비김치</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221110_22/0b9b1779-4101-4210-a030-314e20aa3d69.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>겨울에도 예쁜핏~</span>
+                      <span>지금! 핫딜 SALE~</span>
+                    </div>
+                  </div>
+                  <div id="shopping_list_detail" class="shopping_list_detail_3">
+                    <div>
+                      <div class="test">
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221110_22/8ef88a6b-dc89-4e4e-8b27-5f3a45f0b5b9.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>100% 천연소가죽</span>
+                      <span>최대50% 크로스백</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20220919_12/52a18e84-ffbc-4555-95c0-a1de60eeb365.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>발바닥! 족저근막</span>
+                      <span>이것은 신세계!</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221012_10/8f5b8652-2087-4b4d-b525-06a2135d0ac1.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>게스 이지웨어SET</span>
+                      <span>48% SALE</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221108_10/88162461-838d-4f2d-a57f-72aca6c9aeaa.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>지금 날씨에 딱!</span>
+                      <span>편하게 입기 좋아</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221005_9/29cd95c0-16ea-462a-94cd-94f04b48d835.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>1만원대200셋한정</span>
+                      <span>통영생굴무침1+1</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221101_6/de3b1d09-150f-44bc-a5d4-e0b5c4f435fa.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>반영구필터 증정!</span>
+                      <span>수압상승 샤워기</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20220913_1/42a6f9cf-762a-48a4-ba8d-d9e0d807f30a.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>아우터안에~쏙!</span>
+                      <span>최대 90% ↓ SALE~</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221101_11/73ffa686-f3c9-4e3e-9b81-02fd4ae366a2.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>하객룩 데이트룩!</span>
+                      <span>9천장돌파 BEST</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221108_3/b6f3d1e7-9c78-41a8-8e43-479abb28a708.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>1+1 파격특가!</span>
+                      <span>올겨울 꿀잠예약</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20220923_21/705bc9a1-ea76-40c2-86f3-82f114a1a433.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>겨울 신상 OPEN!</span>
+                      <span>신상 매일 10% ↓</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20221101_6/7b1743a1-cd34-40b4-9174-a79cadb9e46f.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>55,66,77 덕다운</span>
+                      <span>TIME SALE</span>
+                    </div>
+                    <div>
+                      <div>
+                        <img
+                          src="https://s.pstatic.net/shopping.phinf/20220531_21/9d6b3354-5979-4e20-9662-7541e636d5d0.jpg?type=f214_292"
+                        />
+                      </div>
+                      <span>16차 재입고기념</span>
+                      <span>14K팔찌 53%SALE</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="shopping_nav_bottom">
+                  <div id="shopping_detail_LB2">◁</div>
+                  <span id="current_page2">1</span>
+                  <span>/</span>
+                  <span>3</span>
+                  <div id="shopping_detail_RB2">▷</div>
+                </div>
+              </div>
+
+              <div class="shopping_news">
+                <div>
+                  <h1>반갑다! 쇼핑뉴스</h1>
+                  <span id="current_page3">1</span>
+                  <span>/</span>
+                  <span>3</span>
+                  <div id="shopping_news_LB">◁</div>
+                  <div id="shopping_news_RB">▷</div>
+                </div>
+
+                <ul id="shopping_news_1">
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span>원쁠딜</span>
+                      <span>1+1 생필품은 여기서 특템찬스!</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span>엠지엠씨</span>
+                      <span>음식물쓰레기통 18% 할인중!</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span>서울샵</span>
+                      <span>중소기업 우수 추천상품 모음전</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span>브랜드K</span>
+                      <span>국가대표 브랜드 Made in Korea</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span>인트나인</span>
+                      <span>핸드메이드 거울 55% 할인 ↓</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span>울산상회</span>
+                      <span>울산경제진흥원 중소기업상품추천</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span>다채몰</span>
+                      <span>힘내라 대구 소상공인 힘내라</span>
+                    </a>
+                  </li>
+                </ul>
+                <ul id="shopping_news_2">
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                </ul>
+                <ul id="shopping_news_3">
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <span>·</span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="shopping_list_2" id="shopping_2"></div>
+            <div class="shopping_list_3" id="shopping_3"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script/custom.js"></script>
+  </body>
+</html>
