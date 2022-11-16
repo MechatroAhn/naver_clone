@@ -505,6 +505,7 @@ const render = () => {
   if (num9 == 1) {
     $(".article_content > div:nth-child(1)").css({
       backgroundColor: "rgb(230, 94, 160)",
+      color: "white",
     });
     $(".article_content > div:nth-child(2)").css({
       backgroundColor: "#2c2d30",
@@ -546,6 +547,7 @@ const render = () => {
     $("#article_10").css({ visibility: "hidden" });
   } else if (num9 == 2) {
     $(".article_content > div:nth-child(2)").css({
+      color: "white",
       backgroundColor: "rgb(21, 104, 236)",
     });
     $(".article_content > div:nth-child(1)").css({
@@ -588,6 +590,7 @@ const render = () => {
     $("#article_10").css({ visibility: "hidden" });
   } else if (num9 == 3) {
     $(".article_content > div:nth-child(3)").css({
+      color: "white",
       backgroundColor: "#4b94e1",
     });
     $(".article_content > div:nth-child(2)").css({
@@ -630,6 +633,7 @@ const render = () => {
     $("#article_10").css({ visibility: "hidden" });
   } else if (num9 == 4) {
     $(".article_content > div:nth-child(4)").css({
+      color: "white",
       backgroundColor: "#66c871",
     });
     $(".article_content > div:nth-child(2)").css({
@@ -672,6 +676,7 @@ const render = () => {
     $("#article_10").css({ visibility: "hidden" });
   } else if (num9 == 5) {
     $(".article_content > div:nth-child(5)").css({
+      color: "white",
       backgroundColor: "#35ae5e",
     });
     $(".article_content > div:nth-child(2)").css({
@@ -714,6 +719,7 @@ const render = () => {
     $("#article_10").css({ visibility: "hidden" });
   } else if (num9 == 6) {
     $(".article_content > div:nth-child(6)").css({
+      color: "white",
       backgroundColor: "rgb(82, 144, 255)",
     });
     $(".article_content > div:nth-child(2)").css({
@@ -756,6 +762,7 @@ const render = () => {
     $("#article_10").css({ visibility: "hidden" });
   } else if (num9 == 7) {
     $(".article_content > div:nth-child(7)").css({
+      color: "white",
       backgroundColor: "rgb(234, 170, 0)",
     });
     $(".article_content > div:nth-child(2)").css({
@@ -798,6 +805,7 @@ const render = () => {
     $("#article_10").css({ visibility: "hidden" });
   } else if (num9 == 8) {
     $(".article_content > div:nth-child(8)").css({
+      color: "white",
       backgroundColor: "#c08d30",
     });
     $(".article_content > div:nth-child(2)").css({
@@ -840,6 +848,7 @@ const render = () => {
     $("#article_10").css({ visibility: "hidden" });
   } else if (num9 == 9) {
     $(".article_content > div:nth-child(9)").css({
+      color: "white",
       backgroundColor: "#41bf6e",
     });
     $(".article_content > div:nth-child(2)").css({
@@ -882,6 +891,7 @@ const render = () => {
     $("#article_10").css({ visibility: "hidden" });
   } else if (num9 == 10) {
     $(".article_content > div:nth-child(10)").css({
+      color: "white",
       backgroundColor: "#8448ca",
     });
     $(".article_content > div:nth-child(2)").css({
@@ -925,16 +935,119 @@ const render = () => {
   }
 };
 
+$(".article_content > div:nth-child(1)").mouseover(function () {
+  if (num9 != 1) {
+    $(".article_content > div:nth-child(1)").css({
+      color: "rgb(230, 94, 160)",
+    });
+  }
+});
+$(".article_content > div:nth-child(1)").mouseleave(function () {
+  $(".article_content > div:nth-child(1)").css({ color: "white" });
+});
+
+$(".article_content > div:nth-child(2)").mouseover(function () {
+  if (num9 != 2) {
+    $(".article_content > div:nth-child(2)").css({
+      color: "rgb(21, 104, 236)",
+    });
+  }
+});
+$(".article_content > div:nth-child(2)").mouseleave(function () {
+  $(".article_content > div:nth-child(2)").css({ color: "white" });
+});
+
+$(".article_content > div:nth-child(3)").mouseover(function () {
+  if (num9 != 3) {
+    $(".article_content > div:nth-child(3)").css({
+      color: "#4b94e1",
+    });
+  }
+});
+$(".article_content > div:nth-child(3)").mouseleave(function () {
+  $(".article_content > div:nth-child(3)").css({ color: "white" });
+});
+
+$(".article_content > div:nth-child(4)").mouseover(function () {
+  if (num9 != 4) {
+    $(".article_content > div:nth-child(4)").css({
+      color: "#66c871",
+    });
+  }
+});
+$(".article_content > div:nth-child(4)").mouseleave(function () {
+  $(".article_content > div:nth-child(4)").css({ color: "white" });
+});
+$(".article_content > div:nth-child(5)").mouseover(function () {
+  if (num9 != 5) {
+    $(".article_content > div:nth-child(5)").css({
+      color: "#35ae5e",
+    });
+  }
+});
+$(".article_content > div:nth-child(5)").mouseleave(function () {
+  $(".article_content > div:nth-child(5)").css({ color: "white" });
+});
+$(".article_content > div:nth-child(6)").mouseover(function () {
+  if (num9 != 6) {
+    $(".article_content > div:nth-child(6)").css({
+      color: "rgb(82, 144, 255)",
+    });
+  }
+});
+$(".article_content > div:nth-child(6)").mouseleave(function () {
+  $(".article_content > div:nth-child(6)").css({ color: "white" });
+});
+$(".article_content > div:nth-child(7)").mouseover(function () {
+  if (num9 != 7) {
+    $(".article_content > div:nth-child(7)").css({
+      color: "rgb(234, 170, 0)",
+    });
+  }
+});
+$(".article_content > div:nth-child(7)").mouseleave(function () {
+  $(".article_content > div:nth-child(7)").css({ color: "white" });
+});
+$(".article_content > div:nth-child(8)").mouseover(function () {
+  if (num9 != 8) {
+    $(".article_content > div:nth-child(8)").css({
+      color: "#c08d30",
+    });
+  }
+});
+$(".article_content > div:nth-child(8)").mouseleave(function () {
+  $(".article_content > div:nth-child(8)").css({ color: "white" });
+});
+$(".article_content > div:nth-child(9)").mouseover(function () {
+  if (num9 != 9) {
+    $(".article_content > div:nth-child(9)").css({
+      color: "#41bf6e",
+    });
+  }
+});
+$(".article_content > div:nth-child(9)").mouseleave(function () {
+  $(".article_content > div:nth-child(9)").css({ color: "white" });
+});
+$(".article_content > div:nth-child(10)").mouseover(function () {
+  if (num9 != 10) {
+    $(".article_content > div:nth-child(10)").css({
+      color: "#8448ca",
+    });
+  }
+});
+$(".article_content > div:nth-child(10)").mouseleave(function () {
+  $(".article_content > div:nth-child(10)").css({ color: "white" });
+});
 function more() {
   if (onMore == 0) {
     onMore = 1;
     document.getElementById("more").style.display = "block";
     $(".nav_left > a:nth-child(17)").css({ color: "rgb(4, 207, 92)" });
-    document.querySelector(".nav_left a:nth-child(17)").innerText = "　접기 △";
+    document.querySelector(".nav_left a:nth-child(17)").innerText = "접기　△";
   } else if (onMore == 1) {
     onMore = 0;
     document.getElementById("more").style.display = "none";
     $(".nav_left > a:nth-child(17)").css({ color: "rgb(142, 148, 166)" });
-    document.querySelector(".nav_left a:nth-child(17)").innerText = "더보기 ▽";
+    document.querySelector(".nav_left a:nth-child(17)").innerText = "더보기　▽";
   }
 }
