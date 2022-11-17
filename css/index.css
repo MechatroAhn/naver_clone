@@ -1055,6 +1055,11 @@ main {
   position: relative;
 }
 
+#shopping_news_2,
+#shopping_news_3{
+  visibility: hidden;
+}
+
 .shopping_news div:nth-child(1) h1 {
   display: flex;
   margin-left: 10px;
@@ -1273,9 +1278,6 @@ article {
   width: 100%;
   position: relative;
 }
-
-
-
 
 #article_6,
 #article_8,
@@ -1899,8 +1901,6 @@ article {
 .green {
   color: #35ae5e;
 }
-
-
 
 footer {
   width: 100%;
