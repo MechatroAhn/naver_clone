@@ -447,46 +447,57 @@ $("#article_nav_RB").click(function () {
 $(".article_content > div:nth-child(1)").click(function () {
   num9 = 1;
   render();
+  resetHeight();
 });
 $(".article_content > div:nth-child(2)").click(function () {
   num9 = 2;
   render();
+  resetHeight();
 });
 $(".article_content > div:nth-child(2)").click(function () {
   num9 = 2;
   render();
+  resetHeight();
 });
 $(".article_content > div:nth-child(3)").click(function () {
   num9 = 3;
   render();
+  resetHeight();
 });
 $(".article_content > div:nth-child(4)").click(function () {
   num9 = 4;
   render();
+  resetHeight();
 });
 $(".article_content > div:nth-child(5)").click(function () {
   num9 = 5;
   render();
+  resetHeight();
 });
 $(".article_content > div:nth-child(6)").click(function () {
   num9 = 6;
   render();
+  resetHeight();
 });
 $(".article_content > div:nth-child(7)").click(function () {
   num9 = 7;
   render();
+  resetHeight();
 });
 $(".article_content > div:nth-child(8)").click(function () {
   num9 = 8;
   render();
+  resetHeight();
 });
 $(".article_content > div:nth-child(9)").click(function () {
   num9 = 9;
   render();
+  resetHeight();
 });
 $(".article_content > div:nth-child(10)").click(function () {
   num9 = 10;
   render();
+  resetHeight();
 });
 
 const render = () => {
@@ -1038,6 +1049,7 @@ $(".article_content > div:nth-child(10)").mouseover(function () {
 $(".article_content > div:nth-child(10)").mouseleave(function () {
   $(".article_content > div:nth-child(10)").css({ color: "white" });
 });
+
 function more() {
   if (onMore == 0) {
     onMore = 1;
@@ -1050,4 +1062,26 @@ function more() {
     $(".nav_left > a:nth-child(17)").css({ color: "rgb(142, 148, 166)" });
     document.querySelector(".nav_left a:nth-child(17)").innerText = "더보기　▽";
   }
+}
+
+$("#article_more_1_1").click(function () {
+  $("#article_main_2_2").css({ display: "grid" });
+  $("#article_more_1_1").css({ display: "none" });
+  $("main").css({ height: "2800px" });
+});
+$("#article_more_2_1").click(function () {
+  $("#article_2_main_2").css({ display: "grid" });
+  $("#article_more_2_1").css({ display: "none" });
+  $("main").css({ height: "2800px" });
+});
+
+function resetHeight() {
+  $("main").css({ height: "2000px" });
+  if (num9 == 4) {
+    $("main").css({ height: "2600px" });
+  }
+  $("#article_main_2_2").css({ display: "none" });
+  $("#article_more_1_1").css({ display: "flex" });
+  $("#article_2_main_2").css({ display: "none" });
+  $("#article_more_2_1").css({ display: "flex" });
 }
