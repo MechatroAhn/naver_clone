@@ -5,6 +5,7 @@ body {
   width: 100%;
   color: rgb(142, 148, 166);
   margin: 0 auto;
+  font-family: 'NanumGothic';
 }
 
 a {
@@ -1502,6 +1503,7 @@ footer {
 }
 .footer_content_1_item_1 span {
   font-size: 15px;
+  line-height: 18px;
 }
 
 .footer_content_2 {
