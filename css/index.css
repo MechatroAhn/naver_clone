@@ -15,6 +15,7 @@ a {
 
 .header_container {
   width: 100%;
+  min-width: 1130px;
   height: 160px;
   background-color: rgb(41, 42, 46);
 }
@@ -377,7 +378,7 @@ nav img {
 }
 main {
   margin: 0 auto;
-  height: 2000px;
+  height: 2600px;
   width: 1130px;
   padding-top: 20px;
   display: flex;
@@ -826,7 +827,7 @@ main {
 
 .shopping {
   width: 100%;
-  height: 1809px;
+  height: 1309px;
   margin-top: 15px;
 }
 .shopping_top {
@@ -1056,7 +1057,7 @@ main {
 }
 
 #shopping_news_2,
-#shopping_news_3{
+#shopping_news_3 {
   visibility: hidden;
 }
 
@@ -1234,8 +1235,8 @@ article {
   cursor: pointer;
 }
 
-.article_content div:nth-child(1) {
-  background-color: rgb(230, 94, 160);
+.article_content div:nth-child(4) {
+  background-color: #66c871;
 }
 
 #article_nav_LB {
@@ -1250,7 +1251,7 @@ article {
   font-weight: bold;
   position: absolute;
   left: -16px;
-  visibility: hidden;
+  visibility: visible;
   cursor: pointer;
   z-index: 1;
 }
@@ -1300,7 +1301,7 @@ article {
   width: 100%;
   margin-top: 15px;
   position: absolute;
-  visibility: visible;
+  visibility: hidden;
 }
 
 .article_main_1 {
@@ -1672,7 +1673,7 @@ article {
   height: 100%;
   margin-top: 15px;
   position: absolute;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .article_nav_4 {
@@ -1904,11 +1905,11 @@ article {
 
 footer {
   width: 100%;
+  min-width: 1130px;
   height: 420px;
   padding-top: 20px;
   background-color: #2c2d30;
   border-top: 1px solid rgb(64, 64, 64);
-  bottom: 0;
 }
 .footer_container {
   margin: 0 auto;

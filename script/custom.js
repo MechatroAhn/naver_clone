@@ -6,7 +6,7 @@ let num5 = 0;
 let num6 = 1;
 let num7 = 1;
 let num8 = 1;
-let num9 = 1;
+let num9 = 4;
 let onMore = 0;
 let onTranslate = 0;
 
@@ -1076,9 +1076,12 @@ $("#article_more_2_1").click(function () {
 });
 
 function resetHeight() {
-  $("main").css({ height: "2000px" });
   if (num9 == 4) {
     $("main").css({ height: "2600px" });
+  } else if (num9 == 3) {
+    $("main").css({ height: "2100px" });
+  } else {
+    $("main").css({ height: "2000px" });
   }
   $("#article_main_2_2").css({ display: "none" });
   $("#article_more_1_1").css({ display: "flex" });
